@@ -1,0 +1,25 @@
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.cover > img {
+    border: 5px solid rgb(144, 144, 144);
+    border-radius: 5px;
+    width: 500px;
+    min-width: 500px;
+    height: 300px;
+}
+
+.description {
+    margin-top: 15px;
+}
+
+.description > p {
+    margin-top: 10px;
+    color: #ccc;
+}
